@@ -1,0 +1,57 @@
+main{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	align-items: center;
+}
+
+/* ici on recupère les id de la main gauche et droite 
+donc # + le nom de l'id */
+
+#maingauche, #maindroite{
+	width: 26%;
+
+}
+
+#milieu, #haute, #basse{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	align-items: center;
+}
+
+[data-lettre]{
+	border: 2px solid #333333;
+	padding: 5px;
+	font-size: 25px;
+	width: 30px;
+}
+
+#aide, #buttonDiv{
+	width: 50%;
+	margin: auto;
+}
+
+#buttonDiv {
+	margin-top: 30px;
+}
+
+.centrer {
+	width: 50%;
+	margin: auto;
+	margin-top: 19px;
+}
+
+#modele{
+	width: 50%;
+	margin: auto;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	font-size: 18px;
+	font-family: Arial;
+	letter-spacing: 5px;
+}
+
+#Bienvenu {
+	margin-bottom: 25px;
+}
